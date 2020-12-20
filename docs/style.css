@@ -18,10 +18,11 @@ body {
 
 #buttons {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 3vh;
+    row-gap: 2vh;
 }
 
 #textareas {
@@ -34,7 +35,6 @@ body {
 }
 
 textarea {
-    min-width: 400px;
     flex: 1 1 auto;
     resize: none;
 }
