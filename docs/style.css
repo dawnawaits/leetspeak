@@ -34,9 +34,15 @@ body {
     padding: 3vh;
 }
 
+#output{
+    background-color: #EBEBEB;
+}
+
 textarea {
     flex: 1 1 auto;
     resize: none;
+    border: 2px solid #acacac;
+    padding: 5px;
 }
 
 textarea:read-only {
